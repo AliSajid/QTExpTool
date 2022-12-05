@@ -1,13 +1,23 @@
 Package: QTExpTool
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Title: What the Package Does (One Line, Title Case)
+Version: 0.99.0
+Date: 2022-12-04
+Authors@R: 
+    person(given = "Ali Sajid", "Imami", , "Ali.Sajid.Imami@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3684-3539"))
+Description: QTExpTool provides an alternative way of evaluating 
+    differential gene expression.
+    This tool uses the gene expression data generated from any standard
+    gene expression pipeline and returns whether a gene is over-expressed
+    or under-expressed on a five point likert-type scale. The goal for this
+    representation is to make the gene expression more clinically relevant
+    to physicians and other non-bioinformatics specialists that are only
+    interested in the qualitative judgement of changes in gene expression.
+License: Artistic-2.0
 URL: https://github.com/AliSajid/QTExpTool
-BugReports: https://github.com/AliSajid/QTExpTool/issues
+BugReports: https://support.bioconductor.org/tag/QTExpTool
+biocViews: Software
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+GithubIssues: https://github.com/AliSajid/QTExpTool/issues
