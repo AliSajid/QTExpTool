@@ -1,0 +1,86 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>",
+    fig.path = "man/figures/README-",
+    out.width = "100%"
+)
+```
+
+# QTExpTool
+
+<!-- badges: start -->
+[![GitHub issues](https://img.shields.io/github/issues/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/pulls)
+<!-- badges: end -->
+
+The goal of `QTExpTool` is to provide an alternative way of evaluating 
+    differential gene expression.
+    
+This tool uses the gene expression data generated from any standard
+gene expression pipeline and returns whether a gene is over-expressed
+or under-expressed on a five point likert-type scale. The goal for this
+representation is to make the gene expression more clinically relevant
+to physicians and other non-bioinformatics specialists that are only
+interested in the qualitative judgement of changes in gene expression.
+
+## Installation instructions
+
+Get the latest stable `R` release from [CRAN](http://cran.r-project.org/). Then install `QTExpTool` from [Bioconductor](http://bioconductor.org/) using the following code:
+
+```{r 'install', eval = FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+    install.packages("BiocManager")
+}
+
+BiocManager::install("QTExpTool")
+```
+
+And the development version from [GitHub](https://github.com/AliSajid/QTExpTool) with:
+
+```{r 'install_dev', eval = FALSE}
+BiocManager::install("AliSajid/QTExpTool")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example, eval = requireNamespace('QTExpTool')}
+library("QTExpTool")
+## basic example code
+```
+
+## Citation
+
+Below is the citation output from using `citation('QTExpTool')` in R. Please
+run this yourself to check for any updates on how to cite __QTExpTool__.
+
+```{r 'citation', eval = requireNamespace('QTExpTool')}
+print(citation('QTExpTool'), bibtex = TRUE)
+```
+
+Please note that the `QTExpTool` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.
+
+## Code of Conduct
+
+Please note that the `QTExpTool` project is released with a [Contributor Code of Conduct](http://bioconductor.org/about/code-of-conduct/). By contributing to this project, you agree to abide by its terms.
+
+## Development tools
+
+* Continuous code testing is possible thanks to [GitHub actions](https://www.tidyverse.org/blog/2020/04/usethis-1-6-0/)  through `r BiocStyle::CRANpkg('usethis')`, `r BiocStyle::CRANpkg('remotes')`, and `r BiocStyle::CRANpkg('rcmdcheck')` customized to use [Bioconductor's docker containers](https://www.bioconductor.org/help/docker/) and `r BiocStyle::Biocpkg('BiocCheck')`.
+* Code coverage assessment is possible thanks to [codecov](https://codecov.io/gh) and `r BiocStyle::CRANpkg('covr')`.
+* The [documentation website](http://AliSajid.github.io/QTExpTool) is automatically updated thanks to `r BiocStyle::CRANpkg('pkgdown')`.
+* The code is styled automatically thanks to `r BiocStyle::CRANpkg('styler')`.
+* The documentation is formatted thanks to `r BiocStyle::CRANpkg('devtools')` and `r BiocStyle::CRANpkg('roxygen2')`.
+
+For more details, check the `dev` directory.
+
+This package was developed using `r BiocStyle::Biocpkg('biocthis')`.
+
+
