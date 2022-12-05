@@ -1,0 +1,31 @@
+pkgVer <- function(pkg) {
+    if (!exists("meta") || is.null(meta)) meta <- packageDescription(pkg)
+    ver <- meta$Version
+    paste0('https://github.com/AliSajid/QTExpTool/', pkg, ' - R package version ', ver)
+}
+
+c(
+
+    bibentry(bibtype="manual",
+        title = "Generating Qualitative Differential Gene Expression Results with QTExpTool",
+        author = personList(
+            person(given = "Ali Sajid", "Imami", , "Ali.Sajid.Imami@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3684-3539"))
+        ),
+        year = format(Sys.Date(), "%Y"),
+        url = "http://www.bioconductor.org/packages/QTExpTool",
+        note = pkgVer('QTExpTool'),
+        doi = '10.18129/B9.bioc.QTExpTool'
+    ),
+    bibentry(bibtype="article",
+        title = "Qualitative Insights for easier interpretation of Gene Expression Data",
+        author = personList(
+            person(given = "Ali Sajid", "Imami", , "Ali.Sajid.Imami@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3684-3539"))
+        ),
+        year = format(Sys.Date(), "%Y"),
+        journal = "bioRxiv",
+        doi = "10.1101/TODO",
+        url = "https://www.biorxiv.org/content/10.1101/TODO"
+    )
+)
