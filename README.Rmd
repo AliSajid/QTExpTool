@@ -18,6 +18,16 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![GitHub issues](https://img.shields.io/github/issues/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/issues)
 [![GitHub pulls](https://img.shields.io/github/issues-pr/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/pulls)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Bioc release status](http://www.bioconductor.org/shields/build/release/bioc/QTExpTool.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/QTExpTool)
+[![Bioc devel status](http://www.bioconductor.org/shields/build/devel/bioc/QTExpTool.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/QTExpTool)
+[![Bioc downloads rank](https://bioconductor.org/shields/downloads/release/QTExpTool.svg)](http://bioconductor.org/packages/stats/bioc/QTExpTool/)
+[![Bioc support](https://bioconductor.org/shields/posts/QTExpTool.svg)](https://support.bioconductor.org/tag/QTExpTool)
+[![Bioc history](https://bioconductor.org/shields/years-in-bioc/QTExpTool.svg)](https://bioconductor.org/packages/release/bioc/html/QTExpTool.html#since)
+[![Bioc last commit](https://bioconductor.org/shields/lastcommit/devel/bioc/QTExpTool.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/QTExpTool/)
+[![Bioc dependencies](https://bioconductor.org/shields/dependencies/release/QTExpTool.svg)](https://bioconductor.org/packages/release/bioc/html/QTExpTool.html#since)
+[![R-CMD-check-bioc](https://github.com/AliSajid/QTExpTool/actions/workflows/R-CMD-check-bioc.yaml/badge.svg)](https://github.com/AliSajid/QTExpTool/actions/workflows/R-CMD-check-bioc.yaml)
+[![Codecov test coverage](https://codecov.io/gh/AliSajid/QTExpTool/branch/main/graph/badge.svg)](https://app.codecov.io/gh/AliSajid/QTExpTool?branch=main)
 <!-- badges: end -->
 
 The goal of `QTExpTool` is to provide an alternative way of evaluating 

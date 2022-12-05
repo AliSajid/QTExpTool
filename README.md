@@ -9,6 +9,25 @@
 issues](https://img.shields.io/github/issues/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/issues)
 [![GitHub
 pulls](https://img.shields.io/github/issues-pr/AliSajid/QTExpTool)](https://github.com/AliSajid/QTExpTool/pulls)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Bioc release
+status](http://www.bioconductor.org/shields/build/release/bioc/QTExpTool.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/QTExpTool)
+[![Bioc devel
+status](http://www.bioconductor.org/shields/build/devel/bioc/QTExpTool.svg)](https://bioconductor.org/checkResults/devel/bioc-LATEST/QTExpTool)
+[![Bioc downloads
+rank](https://bioconductor.org/shields/downloads/release/QTExpTool.svg)](http://bioconductor.org/packages/stats/bioc/QTExpTool/)
+[![Bioc
+support](https://bioconductor.org/shields/posts/QTExpTool.svg)](https://support.bioconductor.org/tag/QTExpTool)
+[![Bioc
+history](https://bioconductor.org/shields/years-in-bioc/QTExpTool.svg)](https://bioconductor.org/packages/release/bioc/html/QTExpTool.html#since)
+[![Bioc last
+commit](https://bioconductor.org/shields/lastcommit/devel/bioc/QTExpTool.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/QTExpTool/)
+[![Bioc
+dependencies](https://bioconductor.org/shields/dependencies/release/QTExpTool.svg)](https://bioconductor.org/packages/release/bioc/html/QTExpTool.html#since)
+[![R-CMD-check-bioc](https://github.com/AliSajid/QTExpTool/actions/workflows/R-CMD-check-bioc.yaml/badge.svg)](https://github.com/AliSajid/QTExpTool/actions/workflows/R-CMD-check-bioc.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/AliSajid/QTExpTool/branch/main/graph/badge.svg)](https://app.codecov.io/gh/AliSajid/QTExpTool?branch=main)
 <!-- badges: end -->
 
 The goal of `QTExpTool` is to provide an alternative way of evaluating
@@ -62,18 +81,37 @@ print(citation('QTExpTool'), bibtex = TRUE)
 #> 
 #> To cite package 'QTExpTool' in publications use:
 #> 
-#>   Imami A (2022). _QTExpTool: What the Package Does (One Line, Title
-#>   Case)_. R package version 0.99.0,
-#>   <https://github.com/AliSajid/QTExpTool>.
+#>   Imami A (2022). _Generating Qualitative Differential Gene Expression
+#>   Results with QTExpTool_. doi:10.18129/B9.bioc.QTExpTool
+#>   <https://doi.org/10.18129/B9.bioc.QTExpTool>,
+#>   https://github.com/AliSajid/QTExpTool/QTExpTool - R package version
+#>   0.99.0, <http://www.bioconductor.org/packages/QTExpTool>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {QTExpTool: What the Package Does (One Line, Title Case)},
+#>     title = {Generating Qualitative Differential Gene Expression Results with QTExpTool},
 #>     author = {Ali Sajid Imami},
 #>     year = {2022},
-#>     note = {R package version 0.99.0},
-#>     url = {https://github.com/AliSajid/QTExpTool},
+#>     url = {http://www.bioconductor.org/packages/QTExpTool},
+#>     note = {https://github.com/AliSajid/QTExpTool/QTExpTool - R package version 0.99.0},
+#>     doi = {10.18129/B9.bioc.QTExpTool},
+#>   }
+#> 
+#>   Imami A (2022). "Qualitative Insights for easier interpretation of
+#>   Gene Expression Data." _bioRxiv_. doi:10.1101/TODO
+#>   <https://doi.org/10.1101/TODO>,
+#>   <https://www.biorxiv.org/content/10.1101/TODO>.
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Article{,
+#>     title = {Qualitative Insights for easier interpretation of Gene Expression Data},
+#>     author = {Ali Sajid Imami},
+#>     year = {2022},
+#>     journal = {bioRxiv},
+#>     doi = {10.1101/TODO},
+#>     url = {https://www.biorxiv.org/content/10.1101/TODO},
 #>   }
 ```
 
