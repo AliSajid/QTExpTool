@@ -77,7 +77,7 @@ Please run this yourself to check for any updates on how to cite
 **QTExpTool**.
 
 ``` r
-print(citation('QTExpTool'), bibtex = TRUE)
+print(citation("QTExpTool"), bibtex = TRUE)
 #> 
 #> To cite package 'QTExpTool' in publications use:
 #> 
